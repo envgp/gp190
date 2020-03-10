@@ -1,0 +1,15 @@
+name: standford-water
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - mkl
+  # - gcc
+  - pip:
+    - pymatsolver
+    - git+https://github.com/simpeg/simpegEM1D.git@master
+
